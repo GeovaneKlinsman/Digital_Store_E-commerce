@@ -17,9 +17,12 @@
 
   <body class="font-[Roboto]">
     <header class="w-[100%]">
-      <section class="max-w-7xl mx-auto pt-[42px]">
-        <div class="w-[993px] h-[192px] top-[34px] left-100 flex flex-row">
+      <div
+        class="w-[100%] h-[192px] top-[34px] flex flex-row max-w-7xl mx-auto mt-[24px] px-4"
+      >
+        <div class="w-[993px] flex flex-row pt-[12px] gap-4">
           <svg
+            class="flex mt-[42px]"
             width="253"
             height="44"
             viewBox="0 0 253 44"
@@ -35,36 +38,75 @@
               fill="#C92071"
             />
           </svg>
-          <div class="relative w-full max-w-sm">
-            <div
-              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
-            >
-              <svg
-                class="w-5 h-5 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-4.35-4.35M10 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"
-                />
-              </svg>
-            </div>
-
-            <div class="flex flex-row gap-2">
+          <div class="">
+            <div class="flex flex-row w-[709px] h-[60px] mt-[34px] gap-2">
               <input
                 type="text"
-                class="px-4 py-2 border rounded"
-                placeholder="Buscar..."
+                class="w-full pr-10 pl-4 py-2 bg-gray-100 border rounded-[8px]"
+                placeholder="Pesquisar produto..."
               />
-
-              <a href="#">Cadastre-se</a>
+              <div class="flex items-center pr-3">
+                <svg
+                  class="w-5 h-5 text-gray-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-4.35-4.35M10 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"
+                  />
+                </svg>
+              </div>
+              <a href="#" class="text-black whitespace-nowrap flex items-center"
+                >Cadastre-se</a
+              >
             </div>
+
+            <nav class="flex ml-[-268px] mt-[44px]">
+              <ul class="flex gap-6">
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
+                    >Produtos</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
+                    >Categorias</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
+                    >Meus Pedidos</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
-          <button type="submit">Entrar</button>
+        </div>
+
+        <div class="flex flex-row gap-12 mt-[54px] ml-[23px]">
+          <button
+            class="bg-pink-700 hover:bg-pink-800 text-white font-bold w-[114px] h-[40px] rounded-[8px] transition duration-200"
+          >
+            Entrar
+          </button>
+
           <svg
             width="33"
             height="29"
@@ -111,39 +153,7 @@
             />
           </svg>
         </div>
-        <nav>
-          <ul class="flex gap-6">
-            <li>
-              <a
-                href="#"
-                class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
-                >Produtos</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
-                >Categorias</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-gray-700 hover:text-[#C92071] hover:underline hover:font-bold underline-offset-8 decoration-[#C92071] decoration-2"
-                >Meus Pedidos</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </section>
+      </div>
     </header>
     <main></main>
     <footer class="bg-[#1a1a1a] text-white py-12">
