@@ -251,7 +251,7 @@
               <p class="text-[12px] text-[#666666]">
                 Casual | Nike | REF:38416711
               </p>
-              <div class="flex flex-row gap-4 pt-4">
+              <div class="flex flex-row gap-4 pt-2">
                 <svg
                   width="94"
                   height="16"
@@ -306,7 +306,7 @@
                   />
                 </svg>
               </div>
-              <div class="py-4">
+              <div class="py-2">
                 <span class="text-[16px]">R$</span>
                 <span class="text-[32px] pr-2 font-bold">219,00</span>
                 <span class="line-through text-[#CCCCCC] text-[16px] font-bold"
@@ -323,48 +323,126 @@
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                 </p>
               </div>
-              <h3 class="text-[14px] font-bold font-[inter] py-4">Cor</h3>
-              <form class="flex flex-row items-center gap-4">
-                <label
-                  class="w-8 h-8 rounded-full bg-[#6FEEFF] cursor-pointer border-2 border-transparent checked:border-black"
-                >
-                  <input
-                    type="radio"
-                    name="estado"
-                    value="azul"
-                    class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
-                  />
-                </label>
-
-                <label class="w-8 h-8 rounded-full bg-[#FF6969] cursor-pointer">
-                  <input
-                    type="radio"
-                    name="estado"
-                    value="rosa"
-                    class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
-                  />
-                </label>
-
-                <label class="w-8 h-8 rounded-full bg-[#5E5E5E] cursor-pointer">
-                  <input
-                    type="radio"
-                    name="estado"
-                    value="cinza"
-                    class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
-                  />
-                </label>
-
-                <label class="w-8 h-8 rounded-full bg-[#6D70B7] cursor-pointer">
-                  <input
-                    type="radio"
-                    name="estado"
-                    value="roxo"
-                    class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
-                  />
-                </label>
+              <form class="flex flex-col gap-4 w-[280px] h-[80px] py-2">
+                <span class="text-gray-500 font-bold">Tamanho</span>
+                <div class="flex gap-4">
+                  <label>
+                    <input
+                      type="radio"
+                      name="tamanho"
+                      value="39"
+                      class="w-[48px] h-[48px] hidden peer"
+                    />
+                    <div
+                      class="w-16 h-16 flex items-center justify-center border border-gray-300 rounded-md peer-checked:bg-[#C92071] peer-checked:text-white font-bold cursor-pointer"
+                    >
+                      39
+                    </div>
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="tamanho"
+                      value="40"
+                      class="w-[48px] h-[48px] hidden peer"
+                    />
+                    <div
+                      class="w-16 h-16 flex items-center justify-center border border-gray-300 rounded-md peer-checked:bg-[#C92071] peer-checked:text-white font-bold cursor-pointer"
+                    >
+                      40
+                    </div>
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="tamanho"
+                      value="41"
+                      class="w-[48px] h-[48px] hidden peer"
+                    />
+                    <div
+                      class="w-16 h-16 flex items-center justify-center border border-gray-300 rounded-md peer-checked:bg-[#C92071] peer-checked:text-white font-bold cursor-pointer"
+                    >
+                      41
+                    </div>
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="tamanho"
+                      value="42"
+                      class="w-[48px] h-[48px] hidden peer"
+                    />
+                    <div
+                      class="w-16 h-16 flex items-center justify-center border border-gray-300 rounded-md peer-checked:bg-[#C92071] peer-checked:text-white font-bold cursor-pointer"
+                    >
+                      42
+                    </div>
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="tamanho"
+                      value="43"
+                      class="w-[48px] h-[48px] hidden peer"
+                    />
+                    <div
+                      class="w-16 h-16 flex items-center justify-center border border-gray-300 rounded-md peer-checked:bg-[#C92071] peer-checked:text-white font-bold cursor-pointer"
+                    >
+                      43
+                    </div>
+                  </label>
+                </div>
               </form>
+              <div class="mt-8">
+                <h3 class="text-[14px] font-bold font-[inter] py-2">Cor</h3>
+                <form class="flex flex-row items-center gap-4 pb-2">
+                  <label
+                    class="w-8 h-8 rounded-full bg-[#6FEEFF] cursor-pointer border-2 border-transparent checked:border-black"
+                  >
+                    <input
+                      type="radio"
+                      name="estado"
+                      value="azul"
+                      class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
+                    />
+                  </label>
+
+                  <label
+                    class="w-8 h-8 rounded-full bg-[#FF6969] cursor-pointer"
+                  >
+                    <input
+                      type="radio"
+                      name="estado"
+                      value="rosa"
+                      class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
+                    />
+                  </label>
+
+                  <label
+                    class="w-8 h-8 rounded-full bg-[#5E5E5E] cursor-pointer"
+                  >
+                    <input
+                      type="radio"
+                      name="estado"
+                      value="cinza"
+                      class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
+                    />
+                  </label>
+
+                  <label
+                    class="w-8 h-8 rounded-full bg-[#6D70B7] cursor-pointer"
+                  >
+                    <input
+                      type="radio"
+                      name="estado"
+                      value="roxo"
+                      class="appearance-none w-full h-full rounded-full checked:border-4 checked:border-black"
+                    />
+                  </label>
+                </form>
+              </div>
               <button
-                class="bg-[#FFB31F] hover:bg-[#e09e1c] transition-colors duration-300 w-[220px] h-[48px] rounded-[8px] my-6 text-[16px] text-[inter] font-bold text-white"
+                class="bg-[#FFB31F] hover:bg-[#e09e1c] transition-colors duration-300 w-[220px] h-[48px] rounded-[8px] my-2 text-[16px] text-[inter] font-bold text-white"
                 type="submit"
               >
                 Comprar
@@ -593,6 +671,155 @@
                   />
                 </defs>
               </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="w-[80%] mx-auto flex justify-between">
+            <h2 class="font-bold text-[24px] text-[inter] pt-8 pb-4">
+              Produtos Relacionados
+            </h2>
+            <span
+              class="flex flex-row font-bold items-center text-[#C92071] font-normal gap-4 hover:text-[#a0185c] cursor-pointer"
+              >Ver todos
+              <svg
+                width="18"
+                height="12"
+                viewBox="0 0 18 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.5 1.5L17 6M17 6L12.5 10.5M17 6H1"
+                  stroke="#C92071"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <!-- cards -->
+          <div class="flex grid grid-cols-4 gap-4 w-[80%] mx-auto pb-16">
+            <!-- card1 -->
+            <div class="my-4">
+              <div class="bg-[white] pt-4 pl-4">
+                <div
+                  class="bg-[#E7FF86] rounded-[29px] w-[96px] flex justify-center items-center font-bold text-[inter] h-[32px]"
+                >
+                  <p>30% OFF</p>
+                </div>
+                <img
+                  class="flex pr-12 pb-8"
+                  src="../Assets/tenis-catalogo.png"
+                  alt=""
+                />
+              </div>
+              <p
+                class="text-[12px] text-[#8F8F8F] font-bold text-[inter] pt-4 pb-2"
+              >
+                Tênis
+              </p>
+              <p
+                class="text-[#474747] font-base text-[24px] tracking-[.75px] text-[inter]"
+              >
+                K-Swiss V8 - Masculino
+              </p>
+              <span
+                class="line-through text-[#8F8F8F] text-[24px] text-[inter] mr-4"
+                >$200</span
+              >
+              <span class="text-[24px] text-[inter]">$100</span>
+            </div>
+            <!-- card2 -->
+            <div class="my-4">
+              <div class="bg-[white] pt-4 pl-4">
+                <div
+                  class="bg-[#E7FF86] rounded-[29px] w-[96px] flex justify-center items-center font-bold text-[inter] h-[32px]"
+                >
+                  <p>30% OFF</p>
+                </div>
+                <img
+                  class="flex pr-12 pb-8"
+                  src="../Assets/tenis-catalogo.png"
+                  alt=""
+                />
+              </div>
+              <p
+                class="text-[12px] text-[#8F8F8F] font-bold text-[inter] pt-4 pb-2"
+              >
+                Tênis
+              </p>
+              <p
+                class="text-[#474747] font-base text-[24px] tracking-[.75px] text-[inter]"
+              >
+                K-Swiss V8 - Masculino
+              </p>
+              <span
+                class="line-through text-[#8F8F8F] text-[24px] text-[inter] mr-4"
+                >$200</span
+              >
+              <span class="text-[24px] text-[inter]">$100</span>
+            </div>
+            <!-- card3 -->
+            <div class="my-4">
+              <div class="bg-[white] pt-4 pl-4">
+                <div
+                  class="bg-[#E7FF86] rounded-[29px] w-[96px] flex justify-center items-center font-bold text-[inter] h-[32px]"
+                >
+                  <p>30% OFF</p>
+                </div>
+                <img
+                  class="flex pr-12 pb-8"
+                  src="../Assets/tenis-catalogo.png"
+                  alt=""
+                />
+              </div>
+              <p
+                class="text-[12px] text-[#8F8F8F] font-bold text-[inter] pt-4 pb-2"
+              >
+                Tênis
+              </p>
+              <p
+                class="text-[#474747] font-base text-[24px] tracking-[.75px] text-[inter]"
+              >
+                K-Swiss V8 - Masculino
+              </p>
+              <span
+                class="line-through text-[#8F8F8F] text-[24px] text-[inter] mr-4"
+                >$200</span
+              >
+              <span class="text-[24px] text-[inter]">$100</span>
+            </div>
+            <!-- card4 -->
+            <div class="my-4">
+              <div class="bg-[white] pt-4 pl-4">
+                <div
+                  class="bg-[#E7FF86] rounded-[29px] w-[96px] flex justify-center items-center font-bold text-[inter] h-[32px]"
+                >
+                  <p>30% OFF</p>
+                </div>
+                <img
+                  class="flex pr-12 pb-8"
+                  src="../Assets/tenis-catalogo.png"
+                  alt=""
+                />
+              </div>
+              <p
+                class="text-[12px] text-[#8F8F8F] font-bold text-[inter] pt-4 pb-2"
+              >
+                Tênis
+              </p>
+              <p
+                class="text-[#474747] font-base text-[24px] tracking-[.75px] text-[inter]"
+              >
+                K-Swiss V8 - Masculino
+              </p>
+              <span
+                class="line-through text-[#8F8F8F] text-[24px] text-[inter] mr-4"
+                >$200</span
+              >
+              <span class="text-[24px] text-[inter]">$100</span>
             </div>
           </div>
         </div>
