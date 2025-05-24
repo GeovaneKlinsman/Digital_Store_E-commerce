@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Store</title>
+    <title>Digital Store - Produtos</title>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -157,44 +157,216 @@
     </header>
 
     <main>
-      <section class="bg-[#D8E3F2]">
-        <div class="flex w-[80%] mx-auto px-4 justify-between">
-          <div class="flex flex-row">
-            <div class="flex flex-row items-center">
-              Resultados para “Tênis”
-              <svg
-                width="6"
-                height="3"
-                viewBox="0 0 6 3"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5.40341 0.261364V2.18182H0.096591V0.261364H5.40341Z"
-                  fill="#474747"
-                />
-              </svg>
-              389 produtos
+      <section class="bg-[#F8F9FA]">
+        <div class="w-[80%] mx-auto pt-12 pb-[120px] px-4">
+          <!-- buscador -->
+          <div class="flex ] pr-4 justify-between">
+            <div class="flex flex-row">
+              <div class="flex flex-row items-center">
+                Resultados para “Tênis”
+                <svg
+                  width="6"
+                  height="3"
+                  viewBox="0 0 6 3"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.40341 0.261364V2.18182H0.096591V0.261364H5.40341Z"
+                    fill="#474747"
+                  />
+                </svg>
+                389 produtos
+              </div>
+            </div>
+            <div
+              class="flex flex-row items-center border-2 border-solid border-[#474747] text-[#474747] text-[inter] w-[332px] h-[60px] p-4 whitespace-nowrap gap-2"
+            >
+              <strong>Ordernar por:</strong>
+              <span class="pr-16"> mais relevantes </span>
+              <span>
+                <svg
+                  width="13"
+                  height="9"
+                  viewBox="0 0 13 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L6.5 7L12 1"
+                    stroke="#474747"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
             </div>
           </div>
-          <div
-            class="flex flex-row items-center border-2 border-solid border-[#474747] w-[332px] h-[60px] p-4 gap-16"
-          >
-            Ordernar por: mais relevantes
-            <svg
-              width="13"
-              height="9"
-              viewBox="0 0 13 9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1 1L6.5 7L12 1"
-                stroke="#474747"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
+
+          <!-- filtro e catalogo -->
+          <div class="flex">
+            <!-- filtro -->
+            <div class="w-[308px] bg-[white] pl-6">
+              <h2
+                class="text-[#474747] text-[16px] font-bold w-[80%] py-4 border-b-2"
+              >
+                Filtrar por
+              </h2>
+              <div>
+                <h3 class="text-[14px] font-bold text-[inter] py-4">Marka</h3>
+                <ul class="space-y-2">
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item1"
+                    />
+                    <label class="pl-2" for="item1">Adidas</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item2"
+                    />
+                    <label class="pl-2" for="item2">Calenciaga</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item3"
+                    />
+                    <label class="pl-2" for="item3">K-Swiss</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item4"
+                    />
+                    <label class="pl-2" for="item4">Nike</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item5"
+                    />
+                    <label class="pl-2" for="item5">Puma</label>
+                  </li>
+                </ul>
+
+                <h3 class="text-[14px] font-bold text-[inter] py-4">
+                  Categoria
+                </h3>
+                <ul class="space-y-2">
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item1"
+                    />
+                    <label class="pl-2" for="item1">Esporte e Lazer</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item2"
+                    />
+                    <label class="pl-2" for="item2">Casual</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item3"
+                    />
+                    <label class="pl-2" for="item3">Utilitario</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item4"
+                    />
+                    <label class="pl-2" for="item4">Corrida</label>
+                  </li>
+                </ul>
+
+                <h3 class="text-[14px] font-bold text-[inter] py-4">Gênero</h3>
+                <ul class="space-y-2">
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item1"
+                    />
+                    <label class="pl-2" for="item1">Masculino</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item2"
+                    />
+                    <label class="pl-2" for="item2">Feminino</label>
+                  </li>
+
+                  <li class="flex items-center text-[#474747] text-[14px]">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="checkbox"
+                      id="item3"
+                    />
+                    <label class="pl-2" for="item3">Unissex</label>
+                  </li>
+                </ul>
+                <form>
+                  <h3 class="text-[14px] font-bold font-[inter] py-4">
+                    Estado
+                  </h3>
+
+                  <div class="flex items-center gap-2 mb-2">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="radio"
+                      name="estado"
+                      id="novo"
+                      value="novo"
+                    />
+                    <label for="novo" class="text-[#474747] text-[14px]"
+                      >Novo</label
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2">
+                    <input
+                      class="w-[22px] h-[22px] accent-[#C92071] rounded border-gray-300 focus:ring-[#C92071]"
+                      type="radio"
+                      name="estado"
+                      id="usado"
+                      value="usado"
+                    />
+                    <label for="usado" class="text-[#474747] text-[14px]"
+                      >Usado</label
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- catalogo -->
+            <div></div>
           </div>
         </div>
       </section>
