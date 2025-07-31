@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digital Store - Criar Conta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f7f6ff] font-sans">
+    <!-- Cabeçalho -->
+    <header class="bg-white px-6 py-4 shadow">
+      <div class="max-w-6xl mx-auto flex items-center">
+        <img src="./ASSETS/Group 53576.png" alt="Logotipo" class="mr-2" />
+      </div>
+    </header>
+
+    <!-- Formulário -->
+
+    <main class="max-w-xl mx-auto mt-10 px-4">
+      <h2 class="text-3xl font-bold mb-6">Criar Conta</h2>
+
+      <form class="bg-white p-8 rounded-md shadow relative mb-20">
+        <!-- local para inserir informações pessoais -->
+        <h3 class="text-lg font-semibold border-b border-gray-300 mb-4">
+          Informações Pessoais
+        </h3>
+        <div class="space-y-4 mb-6">
+          <div>
+            <label class="block text-sm font-medium">Nome Completo *</label>
+            <input
+              type="text"
+              placeholder="Insira seu nome"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">CPF *</label>
+            <input
+              type="text"
+              placeholder="Insira seu CPF"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">E-mail *</label>
+            <input
+              type="email"
+              placeholder="Insira seu email"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Celular *</label>
+            <input
+              type="tel"
+              placeholder="Insira seu celular"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+        </div>
+
+        <!-- local para inserir informações de entrega -->
+        <h3 class="text-lg font-semibold border-b border-gray-300 mb-4">
+          Informações de Entrega
+        </h3>
+        <div class="space-y-4 mb-6">
+          <div>
+            <label class="block text-sm font-medium">Endereço *</label>
+            <input
+              type="text"
+              placeholder="Insira seu endereço"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Bairro *</label>
+            <input
+              type="text"
+              placeholder="Insira seu bairro"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Cidade *</label>
+            <input
+              type="text"
+              placeholder="Insira sua cidade"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">CEP *</label>
+            <input
+              type="text"
+              placeholder="Insira seu CEP"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Complemento</label>
+            <input
+              type="text"
+              placeholder="Insira complemento"
+              class="w-full border border-gray-300 rounded-md px-4 py-2 bg-gray-100"
+            />
+          </div>
+        </div>
+
+        <div class="mb-6 flex items-start">
+          <input
+            type="checkbox"
+            class="h-5 w-5 text-pink-600 border-gray-300 rounded"
+            checked
+          />
+          <label class="ml-3 text-sm text-gray-600">
+            Quero receber por email ofertas e novidades das lojas da Digital
+            Store. A frequência de envios pode variar de acordo com a interação
+            do cliente.
+          </label>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 rounded-md mb-20"
+        >
+          Criar Conta
+        </button>
+      </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-[#1e1e1e] text-white pt-12 pb-4">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 text-sm">
+          <div>
+            <div class="flex items-center gap-2 mb-4">
+              <img src="./ASSETS/logo.png" alt="Logo" class="h-8 w-auto" />
+            </div>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="flex space-x-4 mt-6 text-white text-lg">
+              <img
+                src="./ASSETS/icones.png"
+                alt="Facebook"
+                class="h-6 w-auto"
+              />
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-semibold mb-4">Informação</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li><a href="#">Sobre Drip Store</a></li>
+              <li><a href="#">Segurança</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Trabalhe conosco</a></li>
+              <li><a href="#">Meus Pedidos</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold mb-4">Categorias</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li><a href="#">Camisetas</a></li>
+              <li><a href="#">Calças</a></li>
+              <li><a href="#">Bonés</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Tênis</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="font-semibold mb-4">Contato</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE,
+              60150-161
+            </p>
+            <p class="text-gray-400 leading-relaxed">(85) 3051-3411</p>
+          </div>
+        </div>
+
+        <!-- LINHA e COPYRIGHT dentro do container -->
+        <div
+          class="border-t border-gray-600 mt-10 pt-4 text-center text-gray-500 text-sm"
+        >
+          ©️ 2022 Digital College
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
